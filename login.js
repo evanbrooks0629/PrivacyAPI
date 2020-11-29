@@ -15,8 +15,8 @@ async function login () {
 
         const postLogin = await axios.post('https://privacy.com/auth/local',
             {
-                "email":"evanbrooks0629@gmail.com",
-                "password":"EvanSoccer$34$",
+                "email":"YOUR EMAIL",
+                "password":"YOUR PASSWORD",
                 "extensionInstalled":false,
                 "captchaResponse":null
             },
