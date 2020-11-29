@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-async function login () {
+async function login (email, password) {
 
     try {
 
@@ -15,8 +15,8 @@ async function login () {
 
         const postLogin = await axios.post('https://privacy.com/auth/local',
             {
-                "email":"YOUR EMAIL",
-                "password":"YOUR PASSWORD",
+                "email":email,
+                "password":password,
                 "extensionInstalled":false,
                 "captchaResponse":null
             },
