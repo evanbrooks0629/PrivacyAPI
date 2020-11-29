@@ -1,5 +1,5 @@
 # PrivacyAPI
-An API that can be used to quickly obtain all the user's open VCC's from privacy.com
+An API that can be used to quickly obtain all the user's open virtual credit cards (VCC's) from privacy.com
 
 # How to Implement
 First things first, I would log into privacy.com and go through the 6 digit verification code thing. Make sure to check "remember me for 30 days" to avoid any issues. Once you've done that once, you're good for the next month.
